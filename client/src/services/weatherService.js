@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API_URL = import.meta.env.PROD 
-  ? 'https://your-backend-domain.onrender.com/api'
+  ? 'https://weatherapp-sg91.onrender.com/api'
   : 'http://localhost:5000/api';
 
 export const getWeather = async (latitude, longitude) => {
