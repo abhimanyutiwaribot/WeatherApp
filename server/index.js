@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? 'https://your-frontend-domain.vercel.app'
+    ? 'https://weather-app-zeta-snowy-58.vercel.app'
     : 'http://localhost:5173'
 }));
 
